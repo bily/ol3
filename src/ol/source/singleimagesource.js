@@ -16,7 +16,7 @@ ol.SingleImage;
 
 
 /**
- * @typedef {{attribtions: (Array.<ol.Attribution>|undefined),
+ * @typedef {{attributions: (Array.<ol.Attribution>|undefined),
  *            extent: (ol.Extent|undefined),
  *            projection: (ol.Projection|undefined)}}
  */
@@ -33,7 +33,7 @@ ol.source.SingleImageSourceOptions;
 ol.source.SingleImageSource = function(singleImageSourceOptions) {
 
   goog.base(this, {
-    attribtions: singleImageSourceOptions.attribtions,
+    attributions: singleImageSourceOptions.attributions,
     extent: singleImageSourceOptions.extent,
     projection: singleImageSourceOptions.projection
   });
